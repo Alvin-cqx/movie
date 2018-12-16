@@ -1,0 +1,678 @@
+<!-- 视频中心 -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>视频中心-《战意》游戏官网-网易旗舰级冷兵器骑战网游 </title>
+  <link rel="stylesheet" href="ulits/common.css">
+  <link rel="stylesheet" href="movie.css">
+  <script src="ulits/jquery-1.12.4.js"></script>
+  <script src="ulits/jQueryRotate.js"></script>
+  <link rel="stylesheet" href="images/icon/iconfont.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <base target="_blank">
+</head>
+<body>
+<!--顶部的开始-->
+<!--<div class="header" id="goHeader">-->
+    <!--<div class="header-w w">-->
+      <!--<div class="logo">-->
+        <!--<a href="Javascript:void(0)">-->
+          <!--<img src="images/logo.png" alt="">-->
+        <!--</a>-->
+      <!--</div>-->
+      <!--<ul class="header-list">-->
+        <!--<li>-->
+          <!--<a href="Javascript:void(0)">注册账号</a>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<a href="Javascript:void(0)">安卓充值</a>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<a href="Javascript:void(0)">网易游戏全目录<span></span></a>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<a href="Javascript:void(0)">领取网易严选宝箱</a>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
+<div class="top">
+  <div class="topmid w">
+    <div class="logo">
+      <h1>
+        <a href="http://game.163.com/">
+          网易游戏
+        </a>
+      </h1>
+    </div>
+    <ul class="toplist">
+      <li><a href="../register/register.html"><span>注册账号</span></a></li>
+      <li><a href="http://ecard.163.com/script/index"><span>安卓充值</span></a></li>
+      <li class="topBar"><a href="javascript:void(0)"><span>网易游戏全目录<i></i></span></a>
+        <div id="NIE-topBar-menu">
+          <!-- <span>网易游戏全目录 <em class="NIE-topBar-arrIcon"><i></i></em></span> -->
+          <div class="NIE-table" id="NIE-table" style="">
+            <ul class="NIE-nav">
+              <li style="width: 330px;"><b>客户端游戏</b></li>
+              <li class="mobi" style="width: 591px;"><b>手机游戏</b></li>
+              <li style="width: 146px;float:right;" class="last_th"><b>游戏辅助</b></li>
+            </ul>
+
+            <ul class="NIE-list">
+              <li style="width: 147px;border-right: 0;">
+                <p>角色扮演</p>
+                <a href="http://xyq.163.com?from=nietop" target="_blank"><em class="NIE-topBar-1st">梦幻西游电脑版</em></a>
+                <a href="http://xy2.163.com?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话2经典版</em></a>
+                <a href="http://tx3.163.com?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下3</em></a>
+                <a href="http://xqn.163.com?from=nietop" target="_blank"><em class="NIE-topBar-new">新倩女幽魂</em></a>
+                <a href="http://n.163.com?from=nietop" target="_blank"><em class="NIE-topBar-new">逆水寒</em></a>
+                <a href="http://ty.163.com?from=nietop" target="_blank"><em class="NIE-topBar-new">天谕</em></a>
+                <a href="http://long.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">龙魂时刻</em></a>
+                <a href="http://tia.163.com?from=nietop" target="_blank"><em class="NIE-topBar-new">泰亚史诗</em></a>
+                <a href="http://dh2.163.com/?from=nietop" target="_blank">大话2免费版</a>
+                <a href="http://xy3.163.com?from=nietop" target="_blank">新大话3经典版</a>
+                <a href="http://x3.163.com?from=nietop" target="_blank">新大话3免费版</a>
+                <a href="http://zmq.163.com?from=nietop" target="_blank">镇魔曲</a>
+                <a href="http://zw.163.com/?from=nietop" target="_blank">镇魔曲页游</a>
+                <a href="http://dtws2.163.com?from=nietop" target="_blank">大唐无双</a>
+                <a href="http://wh2.163.com?from=nietop" target="_blank">武魂2</a>
+                <a href="http://www.warcraftchina.com?from=nietop" target="_blank">魔兽世界</a>
+
+              </li>
+              <li style="width: 121px;border-right:0;margin-left:20px;">
+                <p>&nbsp;</p>
+                <a href="http://www.diablo3.com.cn/?from=nietop" target="_blank">暗黑破坏神3</a>
+                <a href="http://ff.163.com?from=nietop" target="_blank">新飞飞</a>
+                <a href="http://jl.163.com?from=nietop" target="_blank">精灵传说</a>
+
+              </li>
+              <li class="short" id="js_NIE_topbar_xiu" style="width: 160px;position: absolute;left: 156px;background-color: #fdfefe;z-index:15;">
+                <p>竞技/休闲</p>
+                <a href="http://mc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">我的世界</em></a>
+                <a href="http://ow.blizzard.cn/home?from=nietop" target="_blank"><em class="NIE-topBar-new">守望先锋</em></a>
+                <a href="http://hyp.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">荒野行动Plus</em></a>
+                <a href="http://tuji.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">突击英雄</em></a>
+                <a href="http://wf.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">无尽战区</em></a>
+                <a href="http://z.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">战意</em></a>
+                <a href="http://mjdj.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">秘境对决</em></a>
+                <a href="http://www.heroesofthestorm.com.cn/landing/?from=nietop" target="_blank">风暴英雄</a>
+                <a href="http://sc2.163.com/home?from=nietop" target="_blank">星际争霸Ⅱ</a>
+                <a href="http://y3.163.com?from=nietop" target="_blank">英雄三国</a>
+                <a href="http://www.hearthstone.com.cn/?from=nietop" target="_blank">炉石传说</a>
+
+                <a href="javascript:void(0)" hidefocus="true" class="NIE-topBar-more" id="NIE-topBar-more-pc">更多热门端游</a>
+              </li>
+
+              <li class="hot" style="width: 150px;">
+                <p>热门推荐</p>
+                <a href="http://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a>
+                <a href="http://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a>
+                <a href="http://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a>
+                <a href="http://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a>
+                <a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a>
+                <a href="http://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a>
+                <a href="http://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">楚留香</em></a>
+                <a href="http://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a>
+                <a href="http://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a>
+                <a href="http://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a>
+                <a href="http://qwq.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">非人学园</em></a>
+                <a href="http://dt.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大唐无双唯美篇</em></a>
+                <a href="http://land.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">光明大陆</em></a>
+
+                <a href="http://kf.163.com/?from=nietop" target="_blank">功夫熊猫3手游</a>
+
+
+
+
+              </li>
+              <li class="news" style="width: 418px;">
+                <p>新品推荐</p>
+                <div id="NIE-list-news">
+                  <div class="long-news">
+                    <a href="http://xy3d.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">梦幻西游3D</em></a>
+                    <a href="http://wxzc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">无限战车</em></a>
+                    <a href="http://mc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">我的世界Minecraft</em></a>
+                    <a href="http://hyj.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">花与剑</em></a>
+                    <a href="http://sky.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">Sky光遇</em></a>
+                    <a href="http://lx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">流星蝴蝶剑</em></a>
+                    <a href="http://uno.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">一起优诺</em></a>
+                    <a href="http://pes.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">实况足球</em></a>
+                    <a href="http://t2.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">终结者2官方手游</em></a>
+                    <a href="http://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">荒野行动</em></a>
+                    <a href="http://gd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">孤岛先锋</em></a>
+                    <a href="http://jwxf.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">舰无虚发：暗星</em></a>
+                    <a href="http://survive.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">明日之后</em></a>
+                    <a href="http://pescc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">实况：王者集结</em></a>
+                    <a href="http://hz.163.com//?from=nietop" target="_blank"><em class="NIE-topBar-new">绘真·妙笔千山</em></a>
+                    <a href="http://ws.163.com//?from=nietop" target="_blank"><em class="NIE-topBar-new">战舰世界闪击战</em></a>
+                    <a href="http://wotb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">坦克世界闪击战</em></a>
+                    <a href="http://3v3.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">战争怒吼</em></a>
+                    <a href="http://qlyfz.163.com//?from=nietop" target="_blank"><em class="NIE-topBar-new">权力与纷争</em></a>
+                    <a href="http://codecombat.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">极客战记</em></a>
+                    <a href="http://tqlm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">天启联盟</em></a>
+
+
+
+
+
+
+                  </div>
+                  <div class="long-news">
+                    <a href="http://sword.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">轩辕剑龙舞云山</em></a>
+                    <a href="http://dot.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">泰坦黎明</em></a>
+                    <a href="http://zgz.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">战国志</em></a>
+                    <a href="http://sg.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">三国如龙传</em></a>
+                    <a href="http://mytrip.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">边境之旅</em></a>
+                    <a href="http://qp.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易棋牌</em></a>
+                    <a href="http://sywm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">神谕文明</em></a>
+                    <a href="http://yume.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">悠梦YuME</em></a>
+                    <a href="http://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">神都夜行录</em></a>
+                    <a href="http://fc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">永远的7日之都</em></a>
+                    <a href="http://fdhz.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">反斗海战</em></a>
+                    <a href="http://lh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">猎魂觉醒</em></a>
+                    <a href="http://tym.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">天谕手游</em></a>
+                    <a href="http://room.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">迷室The Room</em></a>
+                    <a href="http://lyzd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">绿茵之巅</em></a>
+                    <a href="http://hd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">海岛纪元</em></a>
+                    <a href="http://fz.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">汉王纷争</em></a>
+                    <a href="http://popa.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">泡泡趴</em></a>
+
+
+                  </div>
+                  <div class="short-news">
+                    <a href="http://ma3.163.com/?from=nietop" target="_blank">叛逆性百万亚瑟王</a>
+                    <a href="http://langrensha.163.com/?from=nietop" target="_blank">狼人杀</a>
+                    <a href="http://bilibili.163.com/?from=nietop" target="_blank">魔法禁书目录</a>
+                    <a href="http://mhws.163.com/?from=nietop" target="_blank">梦幻西游无双</a>
+                    <a href="http://hzgj.163.com/?from=nietop" target="_blank">魂之轨迹</a>
+                    <a href="http://mjdj.163.com/?from=nietop" target="_blank">秘境对决</a>
+                    <a href="http://myj.163.com/?from=nietop" target="_blank">九州海上牧云记</a>
+                    <a href="http://sv.163.com/?from=nietop" target="_blank">影之诗</a>
+                    <a href="http://xfj.163.com/?from=nietop" target="_blank">暴走小飞机</a>
+                    <a href="http://dui.163.com/?from=nietop" target="_blank">猪场怼怼乐</a>
+                    <a href="http://chao.163.com/?from=nietop" target="_blank">潮人篮球</a>
+                    <a href="http://wpls.163.com/?from=nietop" target="_blank">秘宝猎人:王牌猎手</a>
+                    <a href="http://mwqs.163.com/?from=nietop" target="_blank">迷雾求生</a>
+                    <a href="http://sgblade.163.com/?from=nietop" target="_blank">三国诛将录</a>
+                    <a href="http://zztj.163.com/?from=nietop" target="_blank">重装突击</a>
+
+                    <a href="http://ms.163.com/?from=nietop" target="_blank">元气战姬学院</a>
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                  <div class="short-news">
+                    <a href="http://dance.163.com/?from=nietop" target="_blank">劲舞团</a>
+                    <a href="http://tank.163.com/?from=nietop" target="_blank">坦克连</a>
+                    <a href="http://dhrx.163.com/?from=nietop" target="_blank">大话西游热血版</a>
+                    <a href="http://dhh.163.com/?from=nietop" target="_blank">大航海之路</a>
+                    <a href="http://spp.163.com/?from=nietop" target="_blank">超物理基斗</a>
+                    <a href="http://ssydj.163.com/?from=nietop" target="_blank">三少爷的剑</a>
+                    <a href="http://mwsj.163.com/?from=nietop" target="_blank">迷雾世界</a>
+                    <a href="http://moe.163.com/?from=nietop" target="_blank">萌王EX</a>
+                    <a href="http://dao.163.com/?from=nietop" target="_blank">飞刀又见飞刀</a>
+                    <a href="http://mblr.163.com/?from=nietop" target="_blank">秘宝猎人</a>
+                    <a href="http://fmz.163.com/?from=nietop" target="_blank">伏魔咒</a>
+
+                    <a href="http://txx.163.com/?from=nietop" target="_blank">天下X天下</a>
+                    <a href="http://zj.163.com/?from=nietop" target="_blank">异次元战姬</a>
+                    <a href="http://yhbj.163.com/?from=nietop" target="_blank">永恒边境</a>
+                    <a href="http://wjsy.163.com/?from=nietop" target="_blank">无尽神域</a>
+
+                    <a href="http://zh.163.com/boot.html?from=nietop" target="_blank">斩魂手游版</a>
+                    <a href="http://glory.163.com/?from=nietop" target="_blank">格罗亚传奇</a>
+
+
+
+
+                  </div>
+                  <div class="short-news">
+                    <a href="http://yzr.163.com/?from=nietop" target="_blank">雨血：影之刃</a>
+                    <a href="http://hyy.163.com/?from=nietop" target="_blank">花语月</a>
+                    <a href="http://sl.163.com/?from=nietop" target="_blank">圣灵觉醒</a>
+                    <a href="http://ldxy.163.com/?from=nietop" target="_blank">乱斗西游2</a>
+                    <a href="http://jm.163.com/?from=nietop" target="_blank">惊梦</a>
+                    <a href="http://cake.163.com/index.html?from=nietop" target="_blank">蛋糕物语</a>
+                    <a href="http://mmx.163.com/?from=nietop" target="_blank">火拼萌萌消</a>
+                    <a href="http://dwlm.163.com/?from=nietop" target="_blank">超能动物联盟</a>
+                    <a href="http://zlj.163.com/?from=nietop" target="_blank">口袋侏罗纪</a>
+                    <a href="http://xym.163.com/?from=nietop" target="_blank">迷你西游</a>
+                    <a href="http://zgmh.163.com/?from=nietop" target="_blank">主公莫慌</a>
+                    <a href="http://wscs.163.com/?from=nietop" target="_blank">实况俱乐部</a>
+                    <a href="http://dfw9.163.com/?from=nietop" target="_blank">大富翁9</a>
+
+
+
+
+                  </div>
+                  <div class="short-news">
+                    <a href="http://yhl.163.com/?from=nietop" target="_blank">倩女幽魂录</a>
+                    <a href="http://hzhy.163.com/?from=nietop" target="_blank">魂之幻影</a>
+                    <a href="http://dtyxj.163.com/?from=nietop" target="_blank">大唐游仙记</a>
+                    <a href="http://txhd.163.com/?from=nietop" target="_blank">天下HD</a>
+                    <a href="http://jx.163.com/?from=nietop" target="_blank">无尽战区·觉醒</a>
+                    <a href="http://jjwz.163.com/?from=nietop" target="_blank">荆棘王座</a>
+                    <a href="http://sm.163.com/?from=nietop" target="_blank">西游神魔决</a>
+                    <a href="http://sq.163.com/?from=nietop" target="_blank">有杀气童话</a>
+                    <a href="http://puppy.163.com/?from=nietop" target="_blank">小汪汪</a>
+                    <a href="http://xsd.163.com/?from=nietop" target="_blank">小时代官方游戏</a>
+                    <a href="http://ywl.163.com/?from=nietop" target="_blank">妖刀少女异闻录</a>
+                    <a href="http://tnj.163.com/?from=nietop" target="_blank">猫和老鼠官方手游</a>
+                    <a href="http://gfxm.163.com/?from=nietop" target="_blank">功夫熊猫官方手游</a>
+                    <a href="http://miku.163.com/?from=nietop" target="_blank">初音速</a>
+
+                  </div>
+                </div>
+
+                <a href="javascript:void(0)" hidefocus="true" class="NIE-topBar-more" id="NIE-topBar-more-mobi">更多热门手游</a>
+              </li>
+              <li class="short" style="width: 150px;border-right:0;float:right;">
+
+                <a href="http://ypw.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">游品位</em></a>
+                <a href="http://mumu.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">网易MuMu</em></a>
+                <a href="http://qiyu.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">奇遇俱乐部</em></a>
+                <a href="http://ds.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易大神</em></a>
+                <a href="https://buff.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易BUFF</em></a>
+                <a href="http://gift.163.com/?from=nietop" target="_blank">网易游戏印象</a>
+                <a href="http://pt.163.com/?from=nietop" target="_blank">网易游戏平台</a>
+                <a href="http://yxzs.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易游戏助手</em></a>
+                <a href="http://mkey.163.com?from=nietop" target="_blank">手机将军令</a>
+                <a href="http://ekey.163.com?from=nietop" target="_blank">将军令</a>
+                <a href="http://cbg.163.com?from=nietop" target="_blank">藏宝阁</a>
+                <a href="http://cc.163.com?from=nietop" target="_blank">网易CC</a>
+                <a href="http://box.gm.163.com/?fromnietop" target="_blank">自助百宝箱</a>
+                <a href="http://uu.163.com?from=nietop" target="_blank">网易UU加速器</a>
+                <a href="https://bjk.163.com/hongka/?cmpid=jt-wyk-n&amp;shopid=lmk.cps.jtwykn?from=nietop" target="_blank">网易白金卡</a>
+                <a href="http://gm.163.com?from=nietop" target="_blank">客服中心</a>
+                <a class="NIE-topBar-btn" href="http://game.163.com/?from=nietop" target="_blank">网易游戏</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </li>
+      <li class="getAd">
+        <a href="javascript:void(0)"><span>领取网易严选宝箱</span></a>
+        <a href="javascript:void(0)"><span>安卓充值9.8折</span></a>
+        <a href="javascript:void(0)"><span>安卓充值9.8折</span></a>
+        <a href="javascript:void(0)"><span>领取网易严选宝箱</span></a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--顶部的结束-->
+<!--回到起点开始-->
+<div id="goBack">
+  <a href="Javascript:void(0)" id="back"><span></span></a>
+</div>
+<!--主体的开始-->
+<div class="main">
+    <div class="main-w w">
+       <div class="main-nav clearfix">
+           <ul>
+             <li><a href="../../index.html">进入官网<span>·</span></a></li>
+             <li><a href="../register/register.html">注册账号<span>·</span></a></li>
+             <li><a href="../download/download.html">游戏下载</a></li>
+           </ul>
+       </div>
+       <div class="main-icon">
+        <ul>
+          <!--<li><a data-link="http://c7.gg/aFNTY" href="Javascript:void(0)"></a></li>-->
+          <!--<li><a data-link="https://open.yixin.im/login" href="Javascript:void(0)"></a></li>-->
+          <!--<li><a data-link="http://c7.gg/aFNW7" href="Javascript:void(0)"></a></li>-->
+          <!--<li><a data-link="http://c7.gg/aFNVV" href="Javascript:void(0)"></a></li>-->
+            <li><a data-link="http://c7.gg/aFNTY" href="javascript:void(0)" class="iconfont icon-yixin0"></a></li>
+            <li><a data-link="https://open.yixin.im/login" href="javascript:void(0)" class="iconfont icon-changyonglogo28"></a></li>
+            <li><a data-link="http://c7.gg/aFNW7" href="javascript:void(0)" class="iconfont icon-kongjian"></a></li>
+            <li><a data-link="http://c7.gg/aFNVV" href="javascript:void(0)" class="iconfont icon-weibo"></a></li>
+        </ul>
+      </div>
+      <!--四个视频开始-->
+       <div class="movie-1 clearfix movieLists" movieLj="movies/movie1.mp4">
+           <div class="hidden">
+              <img src="images/banner1_3147ff5.png" alt="">
+           </div>
+           <span class="text">碧瓦青岸东部风光</span>
+           <a href="Javascript:void(0)"  data-index="1"></a>
+           <sapn class="pic"></sapn>
+       </div>
+       <div class="movie-2 clearfix movieLists" movieLj="movies/movie2.mp4">
+          <div class="hidden">
+            <img src="images/banner2_115f5d9.jpg" alt="">
+          </div>
+          <span class="text">世界无限，战意无限</span>
+          <a href="Javascript:void(0)" data-index="2"></a>
+          <sapn class="pic"></sapn>
+       </div>
+       <div class="movie-3 clearfix movieLists" movieLj="movies/movie3.mp4">
+        <div class="hidden">
+          <img src="images/banner3_9a6171c.jpg" alt="">
+        </div>
+        <span class="text">战意精彩实录</span>
+        <a href="Javascript:void(0)" data-index="3"></a>
+        <sapn class="pic"></sapn>
+      </div>
+       <div class="movie-4 clearfix movieLists" movieLj="movies/movie4.mp4">
+        <div class="hidden">
+          <img src="images/banner4_bf15325.jpg" alt="">
+        </div>
+        <span class="text">巍峨西部世界</span>
+        <a href="Javascript:void(0)" data-index="4"></a>
+        <sapn class="pic"></sapn>
+      </div>
+      <!--四个视频结束-->
+      <!--中间导航栏开始-->
+      <div class="middle-nav clearfix" id="middleNav">
+         <ul>
+           <li class="li1"><a href="Javascript:void(0)"></a></li>
+           <li class="li2"><a href="Javascript:void(0)"></a></li>
+           <li class="li3"><a href="Javascript:void(0)"></a></li>
+         </ul>
+      </div>
+      <!--中间导航栏结束-->
+      <!--视频素材开始-->
+      <div class="movie-list ">
+         <ul class="ulList" style="display: block">
+           <li class="movieLists" movieLj="movies/movie5.mp4">
+               <img src="images/movie1.jpg" alt="">
+               <span class="text">我的将军啊!</span>
+               <a href="Javascript:void(0)" data-index="5"></a>
+               <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie6.mp4">
+             <img src="images/movie2.jpg" alt="">
+             <span class="text">双刀女将华丽上线!</span>
+             <a href="Javascript:void(0)" data-index="6"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie7.mp4">
+             <img src="images/movie3.jpg" alt="">
+             <span class="text">最新恢弘大世界展示视频!</span>
+             <a href="Javascript:void(0)" data-index="7"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie8.mp4">
+             <img src="images/movie4.jpg" alt="">
+             <span class="text">大世界东部最新地图曝光!</span>
+             <a href="Javascript:void(0)" data-index="8"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie9.mp4">
+             <img src="images/movie5.jpg" alt="">
+             <span class="text">大世界西部地图曝光!</span>
+             <a href="Javascript:void(0)" data-index="9"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie10.mp4">
+             <img src="images/movie6.jpg" alt="">
+             <span class="text">《战意》海外宣传视频!</span>
+             <a href="Javascript:void(0)" data-index="10"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie11.mp4">
+             <img src="images/movie7.jpg" alt="">
+             <span class="text">创世测试军装展示视频!</span>
+             <a href="Javascript:void(0)" data-index="11"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie12.mp4">
+             <img src="images/movie8.jpg" alt="">
+             <span class="text">创世测试涂装展示视频!</span>
+             <a href="Javascript:void(0)" data-index="12"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie13.mp4">
+             <img src="images/movie9.jpg" alt="">
+             <span class="text">创世终极测试官方宣传视频!</span>
+             <a href="Javascript:void(0)" data-index="13"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie14.mp4">
+             <img src="images/movie10.jpg" alt="">
+             <span class="text">创世终极测试之武将招式展示!</span>
+             <a href="Javascript:void(0)" data-index="14"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie15.mp4">
+             <img src="images/movie11.jpg" alt="">
+             <span class="text">创世终极测试品鉴会视频曝光!</span>
+             <a href="Javascript:void(0)" data-index="15"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie16.mp4">
+             <img src="images/movie12.jpg" alt="">
+             <span class="text">英伟达采访战意制作人视频!</span>
+             <a href="Javascript:void(0)" data-index="16"></a>
+             <span class="pic"></span>
+           </li>
+
+         </ul>
+         <ul class="ulList" >
+           <li class="movieLists" movieLj="movies/movie5.mp4">
+            <img src="images/movie15.jpg" alt="">
+            <span class="text">我的将军啊!</span>
+            <a href="Javascript:void(0)" data-index="5"></a>
+            <span class="pic"></span>
+          </li>
+           <li class="movieLists" movieLj="movies/movie6.mp4">
+            <img src="images/movie16.jpg" alt="">
+            <span class="text">双刀女将华丽上线!</span>
+            <a href="Javascript:void(0)" data-index="6"></a>
+            <span class="pic"></span>
+          </li>
+           <li class="movieLists" movieLj="movies/movie7.mp4">
+            <img src="images/movie17.jpg" alt="">
+            <span class="text">最新恢弘大世界展示视频!</span>
+            <a href="Javascript:void(0)" data-index="7"></a>
+            <span class="pic"></span>
+          </li>
+           <li class="movieLists" movieLj="movies/movie8.mp4">
+            <img src="images/movie18.jpg" alt="">
+            <span class="text">大世界东部最新地图曝光!</span>
+            <a href="Javascript:void(0)" data-index="8"></a>
+            <span class="pic"></span>
+          </li>
+           <li class="movieLists" movieLj="movies/movie5.mp4">
+             <img src="images/movie19.jpg" alt="">
+             <span class="text">我的将军啊!</span>
+             <a href="Javascript:void(0)" data-index="5"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie6.mp4">
+             <img src="images/movie20.jpg" alt="">
+             <span class="text">双刀女将华丽上线!</span>
+             <a href="Javascript:void(0)" data-index="6"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie5.mp4">
+             <img src="images/movie15.jpg" alt="">
+             <span class="text">我的将军啊!</span>
+             <a href="Javascript:void(0)" data-index="5"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie6.mp4">
+             <img src="images/movie16.jpg" alt="">
+             <span class="text">双刀女将华丽上线!</span>
+             <a href="Javascript:void(0)" data-index="6"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie7.mp4">
+             <img src="images/movie17.jpg" alt="">
+             <span class="text">最新恢弘大世界展示视频!</span>
+             <a href="Javascript:void(0)" data-index="7"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie8.mp4">
+             <img src="images/movie18.jpg" alt="">
+             <span class="text">大世界东部最新地图曝光!</span>
+             <a href="Javascript:void(0)" data-index="8"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie5.mp4">
+             <img src="images/movie19.jpg" alt="">
+             <span class="text">我的将军啊!</span>
+             <a href="Javascript:void(0)" data-index="5"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie5.mp4">
+             <img src="images/movie1.jpg" alt="">
+             <span class="text">我的将军啊!</span>
+             <a href="Javascript:void(0)" data-index="5"></a>
+             <span class="pic"></span>
+           </li>
+        </ul>
+         <ul class="ulList" >
+           <li class="movieLists" movieLj="movies/movie5.mp4">
+            <img src="images/movie19.jpg" alt="">
+            <span class="text">我的将军啊!</span>
+            <a href="Javascript:void(0)" data-index="5"></a>
+            <span class="pic"></span>
+          </li>
+           <li class="movieLists" movieLj="movies/movie5.mp4">
+             <img src="images/movie1.jpg" alt="">
+             <span class="text">我的将军啊!</span>
+             <a href="Javascript:void(0)" data-index="5"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie6.mp4">
+             <img src="images/movie2.jpg" alt="">
+             <span class="text">双刀女将华丽上线!</span>
+             <a href="Javascript:void(0)" data-index="6"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie7.mp4">
+             <img src="images/movie3.jpg" alt="">
+             <span class="text">最新恢弘大世界展示视频!</span>
+             <a href="Javascript:void(0)" data-index="7"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie8.mp4">
+             <img src="images/movie4.jpg" alt="">
+             <span class="text">大世界东部最新地图曝光!</span>
+             <a href="Javascript:void(0)" data-index="8"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie9.mp4">
+             <img src="images/movie5.jpg" alt="">
+             <span class="text">大世界西部地图曝光!</span>
+             <a href="Javascript:void(0)" data-index="9"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie10.mp4">
+             <img src="images/movie6.jpg" alt="">
+             <span class="text">《战意》海外宣传视频!</span>
+             <a href="Javascript:void(0)" data-index="10"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie11.mp4">
+             <img src="images/movie7.jpg" alt="">
+             <span class="text">创世测试军装展示视频!</span>
+             <a href="Javascript:void(0)" data-index="11"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie12.mp4">
+             <img src="images/movie8.jpg" alt="">
+             <span class="text">创世测试涂装展示视频!</span>
+             <a href="Javascript:void(0)" data-index="12"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie6.mp4">
+            <img src="images/movie20.jpg" alt="">
+            <span class="text">双刀女将华丽上线!</span>
+            <a href="Javascript:void(0)" data-index="6"></a>
+            <span class="pic"></span>
+          </li>
+           <li class="movieLists" movieLj="movies/movie12.mp4">
+             <img src="images/movie8.jpg" alt="">
+             <span class="text">创世测试涂装展示视频!</span>
+             <a href="Javascript:void(0)" data-index="12"></a>
+             <span class="pic"></span>
+           </li>
+           <li class="movieLists" movieLj="movies/movie13.mp4">
+             <img src="images/movie9.jpg" alt="">
+             <span class="text">创世终极测试官方宣传视频!</span>
+             <a href="Javascript:void(0)" data-index="13"></a>
+             <span class="pic"></span>
+           </li>
+        </ul>
+      </div>
+      <!--视频素材结束-->
+      <!--跳转页面的开始-->
+      <!--<div class="page">-->
+        <!--<a href="Javascript:void(0)">1</a>-->
+        <!--<a href="Javascript:void(0)">2</a>-->
+        <!--<a href="Javascript:void(0)">3</a>-->
+      <!--</div>-->
+    <!--跳转页面结束-->
+    </div>
+
+</div>
+<!--主体的结束-->
+<!--底部的开始-->
+<div class="footer">
+     <div class="footer-w w">
+       <a href="Javascript:void(0)">
+         <img src="images/footer-icon1.png" alt="">
+       </a>
+       <a href="Javascript:void(0)">
+         <img src="images/footer-icon2.png" alt="">
+       </a>
+       <a href="Javascript:void(0)">
+         <img src="images/footer-icon3.png" alt="">
+       </a>
+       <a href="Javascript:void(0)">
+         <img src="images/footer-icon4.png" alt="">
+       </a>
+       <a href="Javascript:void(0)">
+         <img src="images/footer-icon5.png" alt="">
+       </a>
+       <a href="Javascript:void(0)">
+         <img src="images/footer-icon6.png" alt="">
+       </a>
+       <a href="Javascript:void(0)">
+         <img src="images/footer-icon7.png" alt="">
+       </a>
+       <div class="footer-word">
+         <a href="Javascript:void(0)">公司简介</a>
+         <a href="Javascript:void(0)">客户服务</a>
+         <a href="Javascript:void(0)">相关法律</a>
+         <a href="Javascript:void(0)">网易游戏</a>
+         <a href="Javascript:void(0)">联系我们</a>
+         <a href="Javascript:void(0)">商务合作</a>
+         <a href="Javascript:void(0)">加入我们</a><br>
+         <span>网易公司版权所有 ©1997-2018</span>
+
+       </div>
+     </div>
+</div>
+<!--底部的结束-->
+
+<!--视频窗口的开始-->
+<div class="screen">
+   <video controls="controls" muted autoplay controlslist="nodownload" src="movies/movie1.mp4" width="800" height="450"    >
+   </video>
+  <a href="Javascript:void(0)"></a>
+</div>
+<!--视频窗口的结束-->
+<!--整个屏幕变黑开始-->
+<div class="allbody"></div>
+<!--整个屏幕变黑结束-->
+
+<script src=ulits/animation.js></script>
+<script src=ulits/common.js></script>
+<script src=movie.js></script>
+<script src="ulits/common1.js"></script>
+</body>
+</html>
